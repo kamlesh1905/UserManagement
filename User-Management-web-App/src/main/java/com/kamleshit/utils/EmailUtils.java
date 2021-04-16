@@ -13,7 +13,7 @@ public class EmailUtils
 	@Autowired
 	private JavaMailSender mailSender;
 	
-	public boolean sendAcctRegEmail(String subject,String body, String to)
+	public boolean sendEmail(String subject,String body, String to)
 	{
 		boolean isSent = false;
 		

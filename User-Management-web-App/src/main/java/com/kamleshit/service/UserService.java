@@ -2,6 +2,7 @@ package com.kamleshit.service;
 
 import java.util.Map;
 
+import com.kamleshit.domain.UnlockAccount;
 import com.kamleshit.entity.UserAccountEntity;
 
 public interface UserService 
@@ -18,8 +19,10 @@ public interface UserService
 
     public Boolean saveUser(UserAccountEntity userAcc);
 
-    //public String unlockAccount(UnlockAccount acc);
+    public String unlockAccount(UnlockAccount acc);
 
     public Boolean forgotPassword(String emailId);
+    
+   
 
 }
